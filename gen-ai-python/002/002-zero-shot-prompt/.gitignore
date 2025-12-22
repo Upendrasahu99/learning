@@ -1,7 +1,0 @@
-#ignore folder
-virtualENV/
-#ignore hidden folder
-.virtualENV/
-#ignore env file
-.env
-
