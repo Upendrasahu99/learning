@@ -50,7 +50,7 @@ class MCQResponse(BaseModel):
 client = genai.Client()
 
 response =   response = client.models.generate_content(
-    model='gemini-2.5-flash-lite',
+    model='gemini-2.5-pro',
     contents=[
       types.Part.from_bytes(
         data=image_bytes,
